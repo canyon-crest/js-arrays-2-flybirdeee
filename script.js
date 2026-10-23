@@ -42,7 +42,7 @@ let numbers = [];
 //         a) Use prompt() to ask "Enter number " + (i + 1)
 //         b) Use parseFloat() to convert the input to a number
 //         c) Use .push() to add the number to the array
-for(let i = 0; i < 4; ++i){
+for(let i = 0; i < 5; ++i){
     let num = prompt("Enter a number " + (i + 1));
     num = parseFloat(num);
     numbers.push(num);
@@ -94,7 +94,7 @@ console.log("Even count: " + count);
 //         Loop through the rest and update if you find a bigger one.
 //         Print: console.log("Largest: " + largest)
 let largest = numbers[0];
-for(let i = 1; i < numbers.length+1; ++i){
+for(let i = 1; i < numbers.length; ++i){
     if(numbers[i] > largest){
         largest = numbers[i];
     }
